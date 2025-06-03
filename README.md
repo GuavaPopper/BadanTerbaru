@@ -25,9 +25,26 @@ git clone [URL_REPOSITORY]
 cd Height-Detection-main
 ```
 
-2. Install dependencies yang diperlukan:
+2. Buat dan aktifkan virtual environment:
+```bash
+# Membuat virtual environment
+python -m venv venv
+
+# Mengaktifkan virtual environment
+# Untuk Windows:
+venv\Scripts\activate
+# Untuk Linux/Mac:
+source venv/bin/activate
+```
+
+3. Install dependencies yang diperlukan:
 ```bash
 pip install -r requirements.txt
+```
+
+4. Deaktivasi virtual environment setelah selesai:
+```bash
+deactivate
 ```
 
 ## Cara Penggunaan
