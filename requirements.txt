@@ -13,3 +13,4 @@ matplotlib>=3.4.0  # For plotting
 transformers>=4.20.0  # For Hugging Face models
 torch>=1.10.0  # PyTorch
 pillow>=8.0.0  # PIL for image processing 
+supabase>=2.0.0  # Supabase Python client
